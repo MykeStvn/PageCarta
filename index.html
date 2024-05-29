@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amorcito Bello</title>
+    <link rel="icon" type="image/png" href="iconamor.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Mamo Chiquito</strong>
+                        <p>
+                            Quiero decirte que te amo mucho mi chiquita, te agradezco por
+                            todo el tiempo juntos y por las cosas que haz hecho por mi y 
+                            por nuestro Alejito❤️
+                            Siempre vas a ser el amor de mi vida y quiero que estés segura
+                            de eso, se que vamos a lograr muchas cosas amorcito, Te amo gordita😍
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
